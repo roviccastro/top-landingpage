@@ -10,3 +10,11 @@
  }
 
  /*  */
+
+ body{
+  display: flex;
+  flex-flow: column wrap;
+
+  background-color: rgb(22, 22, 22);
+  color: cornsilk;
+ }
