@@ -127,3 +127,37 @@ img{
   border-radius: 10px;
   
 }
+
+/* Content */
+
+.content{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+.content-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.content-card{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  gap: 10px;
+}
+.card-img{
+  border: 0px solid black;
+  border-radius: 10px;
+}
+.card-txt{
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  text-align: justify;
+}
+
