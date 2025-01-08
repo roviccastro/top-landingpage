@@ -168,14 +168,20 @@ img{
 }
 
 /* Call-to-Action */
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 80px 60px;
+}
 
 .cta-container{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 50px;
-  padding: 25px 15px;
+  padding: 40px 20px;
 
+  border-radius: 10px;
   background-color: cornsilk;
 }
 #cta-left{
