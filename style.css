@@ -176,7 +176,7 @@ img{
   gap: 50px;
   padding: 25px 15px;
 
-  background-color: rgba(0, 75, 0, 1);
+  background-color: cornsilk;
 }
 #cta-left{
   display: flex;
@@ -190,7 +190,7 @@ img{
 }
 .cta-subhero{
   font-size: 20px;
-  color: cornsilk;
+  color: rgb(22, 22, 22);
 }
 #cta-right{
   display: flex;
@@ -210,8 +210,8 @@ img{
   border: 2px solid rgb(22, 22, 22);
   border-radius: 10px;
   font-size: 20px;
-  color: cornsilk;
-  background-color:rgba(0, 75, 0, 1);
+  color: rgb(22, 22, 22);
+  background-color: cornsilk;
 }
 
 /* Quote */
@@ -221,7 +221,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: 75px 50px;
-  background-color: cornsilk;
+  background-color: rgba(0, 75, 0, 1);
 }
 #quote{
   font-size: 32px;
@@ -231,4 +231,13 @@ img{
   font-size: 28px;
   color: rgb(47, 0, 0);
   align-self: center;
+}
+
+.footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(47, 0, 0);
 }
