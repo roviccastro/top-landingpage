@@ -65,3 +65,65 @@ img{
 
 /* Header */
 
+.header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header-container{
+  display: flex;
+  flex: 1 1 0;
+  gap: 20px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.header-hero-container{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+.header-hero{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgba(0, 75, 0, 1);
+}
+.header-subhero{
+  font-size: 25px;
+}
+
+.header-btn-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: cornsilk;
+  background-color: rgb(47, 0, 0);
+}
+.hero-btn{
+  padding: 10px 40px;
+  border: 0px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  color: cornsilk;
+  background-color: rgb(47, 0, 0);
+}
+
+.image-container{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 0;
+  justify-content: center;
+}
+.hero-img{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 0;
+  justify-content: center;
+
+  border: 0px solid black;
+  border-radius: 10px;
+  
+}
