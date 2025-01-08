@@ -15,6 +15,12 @@
   color: inherit;
  }
 
+ /* Temporary */
+
+img{
+  width: 300px;
+}
+
  /*  */
 
  body{
@@ -25,12 +31,20 @@
   color: cornsilk;
  }
 
+ .nav-bar,
+ .header,
+ .content,
+ .footer{
+  padding: 25px 50px;
+ }
+
+ /* Navigationa Bar */
+
  .nav-bar{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   gap: 20px;
-  padding: 25px 50px;
   background-color: rgb(47, 0, 0)
  }
 #logo{
@@ -49,6 +63,74 @@
   color: yellow;
 }
 
-img{
-  width: 300px;
+/* Header */
+
+.header,
+.text-container,
+.hero-container,
+.hero, .hero-sub,
+.hero-btn,
+.image-container, .hero-img{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header{
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-container,
+.image-container{
+  flex: 1 1 0;
+}
+
+.text-container{
+  flex-direction: column wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.hero-container{
+  display: flex;
+}
+
+.hero{
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgba(0, 140, 0, 1);
+}
+.hero-sub{
+  font-size: 18px;
+  text-align: justify;
+  color: cornsilk;
+}
+
+.btn-container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+
+.hero-btn{
+  padding: 5px 50px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+
+  color: cornsilk;
+  background-color: rgb(188, 0, 0);
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.image-container{
+  justify-content: center;
+  align-items: center;
+}
+#hero-img{
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
 }
