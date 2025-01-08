@@ -130,7 +130,7 @@ img{
 
 /* Content */
 #content-hero{
-  color: rgb(190, 190, 0);
+  color: rgb(236, 216, 0);
   font-size: 40px;
   font-weight: bolder;
   text-align: center;
@@ -246,4 +246,5 @@ img{
   align-items: center;
 
   background: rgb(47, 0, 0);
+  color: rgb(236, 216, 0);
 }
