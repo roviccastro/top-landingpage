@@ -166,3 +166,22 @@ img{
   font-size: 20px;
   text-align: center;
 }
+
+/* Quote */
+.quote-container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 50px;
+  background-color: rgba(0, 75, 0, 1);
+}
+#quote{
+  font-size: 32px;
+  color: rgb(47, 0, 0);
+}
+#quote-ref{
+  font-size: 28px;
+  color: rgb(47, 0, 0);
+  align-self: center;
+}
