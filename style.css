@@ -139,7 +139,7 @@ img{
 .content{
   display: flex;
   flex-flow: column wrap;
-  gap: 10px;
+  gap: 50px;
 }
 .content-container{
   display: flex;
