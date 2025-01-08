@@ -60,7 +60,7 @@ img{
 .nav-link{
   display: flex;
   font-size: 28px;
-  color: rgb(190, 190, 0);
+  color: rgb(236, 216, 0);
 }
 
 /* Header */
@@ -167,6 +167,53 @@ img{
   text-align: center;
 }
 
+/* Call-to-Action */
+
+.cta-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 25px 15px;
+
+  background-color: rgba(0, 75, 0, 1);
+}
+#cta-left{
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 1 auto;
+  gap: 10px;
+}
+.cta-hero{
+  font-size: 28px;
+  color: rgb(236, 216, 0);
+}
+.cta-subhero{
+  font-size: 20px;
+  color: cornsilk;
+}
+#cta-right{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+}
+.cta-btn{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+
+  padding: 5px 40px;
+  border: 2px solid rgb(22, 22, 22);
+  border-radius: 10px;
+  font-size: 20px;
+  color: cornsilk;
+  background-color:rgba(0, 75, 0, 1);
+}
+
 /* Quote */
 .quote-container{
   display: flex;
@@ -174,7 +221,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: 75px 50px;
-  background-color: rgba(0, 75, 0, 1);
+  background-color: cornsilk;
 }
 #quote{
   font-size: 32px;
