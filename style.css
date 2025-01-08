@@ -28,7 +28,7 @@ img{
   flex-flow: column wrap;
 
   background-color: rgb(22, 22, 22);
-  color: cornsilk;
+  color: whitesmoke;
  }
 
  .nav-bar,
@@ -60,7 +60,7 @@ img{
 .nav-link{
   display: flex;
   font-size: 20px;
-  color: yellow;
+  color: rgb(190, 190, 0);
 }
 
 /* Header */
@@ -129,6 +129,12 @@ img{
 }
 
 /* Content */
+#content-hero{
+  color: rgb(190, 190, 0);
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
 
 .content{
   display: flex;
@@ -160,4 +166,3 @@ img{
   font-size: 20px;
   text-align: justify;
 }
-
