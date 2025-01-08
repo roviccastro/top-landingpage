@@ -86,12 +86,12 @@ img{
   gap: 10px;
 }
 .header-hero{
-  font-size: 40px;
+  font-size: 70px; /* 40 */
   font-weight: bolder;
   color: rgba(0, 75, 0, 1);
 }
 .header-subhero{
-  font-size: 25px;
+  font-size: 30px; /* 25 */
 }
 
 .header-btn-container{
