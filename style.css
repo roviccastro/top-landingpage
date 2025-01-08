@@ -9,6 +9,12 @@
   font-family: "Times New Roman", serif, "Georgia";
  }
 
+ ul, ol, li, a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+ }
+
  /*  */
 
  body{
